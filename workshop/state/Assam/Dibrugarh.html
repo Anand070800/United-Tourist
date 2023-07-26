@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Assam..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Assam\Dibru Saikhowa National Park.html">Dibru Saikhowa
+                        National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Dibrugarh.html">Dibrugarh</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Diphu.html">Diphu</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Hajo.html">Hajo</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Jorhat.html">Jorhat</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Kaziranga National Park.html">Kaziranga National
+                        Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Majuli.html">Majuli</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Manas National Park.html">Manas National Park</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Nameri National Park.html">Nameri National
+                        Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Orang National Park.html">Orang National Park</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Assam\Umananda.html">Umananda</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Dibrugarh..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Assam\Dibrugarh\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Assam\Dibrugarh\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Assam\Dibrugarh\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Assam\Dibrugarh\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Assam\Dibrugarh\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Assam\Dibrugarh\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Dibrugarh.</h4>
+        </div>
+        <div class="div8">
+            <p>Dibrugarh is one of the most important cities in the state of Assam. It is situated on the banks of the
+                Brahmaputra River and is home to the famous Radha Krishna Mandir, a temple constructed almost completely
+                out of marble. There are a few other temples and important places to visit in Dibrugarh that draw people
+                from across the world. Since it is part of the seven sisters, a name given to the Northeastern states of
+                India, many tourists make it a part of their itinerary when they visit this part of the country. The
+                city is culturally rich – you will find delicious local food to eat, native clothes to wear and see
+                almost everyone conversing in their local language
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

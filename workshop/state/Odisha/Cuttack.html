@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Odisha..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Odisha\Bhubaneswar.html">Bhubaneswar</a></li>
+                <li><a class="placename" href="D:\workshop\state\Odisha\Cuttack.html">Cuttack</a></li>
+                <li><a class="placename" href="D:\workshop\state\Odisha\Pune.html">Pune</a></li>
+                <li><a class="placename" href="D:\workshop\state\Odisha\Satkosia Tiger Reserve.html">Satkosia Tiger
+                        Reserve</a></li>
+                <li><a class="placename" href="D:\workshop\state\Odisha\Similipal National Park.html">Similipal National
+                        Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Odisha\Talasari Beach.html">Talasari Beach</a></li>
+                <li><a class="placename" href="D:\workshop\state\Odisha\Tikarpada Wildlife.html">Tikarpada Wildlife</a>
+                </li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Cuttack..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Odisha\Cuttack\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Odisha\Cuttack\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Odisha\Cuttack\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Odisha\Cuttack\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Odisha\Cuttack\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Odisha\Cuttack\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Cuttack.</h4>
+        </div>
+        <div class=" div8">
+            <p>Referred to as the cultural capital of Odisha, Cuttack is a commercial city with plenty of impressive
+                tourist attractions.
+                <br><br>
+                Cuttack is the second-largest city in Odisha and the former capital as well. Local handicrafts of this
+                state are displayed and traded in this very city. Cuttack is always buzzing with cultural activities and
+                plays host to a variety of festivals like the Baliyatra, which commemorates the ancient trade links the
+                countries like Java, Bali and Sumatra, Durga Puja and the Kite Festival which is held in the month of
+                January.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> United tourism</title>
+  <link rel="stylesheet" type="text/css" href="frontent.css">
+  <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+</head>
+
+<body>
+  <h2><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id=head>.tourism</a></h2>
+  <h1><a id="h1f">Travel</a> <a id="h2f">across</a> <a id="h1f">the</a> <a id="h2f">globe</a></h1>
+  <h3>Life is short and the world is wide</h3>
+  <form>
+    <div class="wrap">
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Search state" list="state" id="place">
+        <datalist id="state">
+          <option value="Andhra Pradesh">
+          <option value="Arunachal Pradesh">
+          <option value="Assam">
+          <option value="Bihar">
+          <option value="Chhattisgarh">
+          <option value="Goa">
+          <option value="Gujarat">
+          <option value="Haryana">
+          <option value="Himachal Pradesh">
+          <option value="Jharkhand">
+          <option value="Karnataka">
+          <option value="Kerala">
+          <option value="Madhaya pradesh">
+          <option value="Maharashtra">
+          <option value="Manipur">
+          <option value="Meghalaya">
+          <option value="Mizoram">
+          <option value="Nagaland">
+          <option value="Odisha">
+          <option value="Punjab">
+          <option value="Rajasthan">
+          <option value="Sikkim">
+          <option value="Tamil Nadu">
+          <option value="Telangana">
+          <option value="Tripura">
+          <option value="Uttar Pradesh">
+          <option value="Uttarakhand">
+          <option value="West Bengal">
+        </datalist>
+        <button type="submit" value="state" class="searchButton" onclick="f1()"><b>Search</b></button>
+      </div>
+    </div>
+  </form>
+  <script>
+    function f1() {
+      var x = document.getElementById("place").value;
+      var loc = "D:\\workshop\\" + x + ".html";
+      window.open(loc);
+
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Chhattisgarh..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife.html">Barnawapara
+                        Wildlife</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Bhoramdeo temple.html">Bhoramdeo
+                        temple</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Chitrakot Waterfalls.html">Chitrakot
+                        Waterfalls</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Kanger Valley National Park.html">Kanger
+                        Valley National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Rajeev Smritivan.html">Rajeev
+                        Smritivan</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Tirathgarh Falls.html">Tirathgarh
+                        Falls</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Chhattisgarh..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Chhattisgarh\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Chhattisgarh.</h4>
+        </div>
+        <div class="div8">
+            <p>Chattisgarh, renowned for its scenic diversity and its cultural and traditional history, is slowly
+                growing into one of India?s most popular holiday destinations. The oldest tribes of India dwell here,
+                some of them for almost 10,000 years. A blend of culture, arts and religion of the local and tribal
+                people, Chattisgarh exhibits the instance of ancient India. Still in its nascent stage though,
+                Chhattisgarh is one of those off-the-beaten-track tourist spots in India that are slowly gaining more
+                popularity through word-of-mouth
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

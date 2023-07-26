@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Punjab..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Punjab\Amritsar.html">Amritsar</a></li>
+                <li><a class="placename" href="D:\workshop\state\Punjab\Gurudwara Sri Ber Sahib.html">Gurudwara Sri Ber
+                        Sahib</a></li>
+                <li><a class="placename" href="D:\workshop\state\Punjab\Pathankot.html">Pathankot</a></li>
+                <li><a class="placename" href="D:\workshop\state\Punjab\Patiala.html">Patiala</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Patiala..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Punjab\Patiala\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Punjab\Patiala\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Punjab\Patiala\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Punjab\Patiala\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Punjab\Patiala\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Punjab\Patiala\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Patiala.</h4>
+        </div>
+        <div class=" div8">
+            <p>The fourth-largest city in the state of Punjab, Patiala is nestled in the southeast of the golden land.
+                Patiala has strong historical and cultural roots, surrounded by architectural marvels and cultural
+                heritage along with being a preferred destination for exploring the core traditions of Punjab. Patiala
+                was once an erstwhile princely state and hence is home to many architectural marvels that are a blend of
+                Mughal and Rajput architecture.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

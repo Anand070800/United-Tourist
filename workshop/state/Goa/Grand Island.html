@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Goa..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Goa\Bondla Wildlife Sanctuary.html">Bondla Wildlife
+                        Sanctuary</a></li>
+                <li><a class="placename" href="D:\workshop\state\Goa\Butterfly Beach.html">Butterfly Beach</a></li>
+                <li><a class="placename" href="D:\workshop\state\Goa\Calangute Beach.html">Calangute Beach</a></li>
+                <li><a class="placename" href="D:\workshop\state\Goa\Divar Island.html">Divar Island</a></li>
+                <li><a class="placename" href="D:\workshop\state\Goa\Dudhsagar Waterfalls.html">Dudhsagar Waterfalls</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Goa\Grand Island.html">Grand Island</a></li>
+                <li><a class="placename" href="D:\workshop\state\Goa\Museum Of Christian Art.html">Museum Of Chritian
+                        Art</a></li>
+                <li><a class="placename" href="D:\workshop\state\Goa\Toda Falls.html">Toda Falls</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Grand Island..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Goa\Grand Island\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Goa\Grand Island\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Goa\Grand Island\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Goa\Grand Island\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Goa\Grand Island\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Goa\Grand Island\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Grand Island.</h4>
+        </div>
+        <div class=" div8">
+            <p>Your Goa holiday will remain incomplete if you don’t visit the Grand Island. Also called the Grande
+                Island, Ilha Grao, and the Ilha Grande, this is the best place in Goa for scuba diving and snorkeling.
+                You can also try your luck at fishing and there are plenty of water sport activities to choose from as
+                well. Plus, there are some awesome beaches here where you can sit back and relax, and enjoy the beauty.
+                A visit to the Grand will surely be a spectacle you will remember for long.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

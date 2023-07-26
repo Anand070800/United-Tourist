@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Madhaya pradesh..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename"
+                        href="D:\workshop\state\Madhaya pradesh\Bandhavgarh National Park.html">Bandhavgarh National
+                        Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Bhedaghat.html">Bhedaghat</a></li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Gwalior.html">Gwalior</a></li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Kanha National Park.html">Kanha
+                        National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Khajuraha.html">Khajuraha</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Pachmarhi.html">Pachmarhi</a></li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Patalpani Waterfalls.html">Patalpani
+                        Waterfalls</a></li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Pench National Park.html">Pench
+                        National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Madhaya pradesh\Sanchi.html">Sanchi</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Sanchi..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Madhaya pradesh\Sanchi\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Madhaya pradesh\Sanchi\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Madhaya pradesh\Sanchi\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Madhaya pradesh\Sanchi\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Madhaya pradesh\Sanchi\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Madhaya pradesh\Sanchi\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Sanchi.</h4>
+        </div>
+        <div class=" div8">
+            <p>Located in Madhya Pradesh, the Buddhist monuments of Sanchi are one of the oldest stone structures in
+                India. Designated a World Heritage site by UNESCO, the Great Stupa was installed in the 3rd century BC
+                by Emperor Ashoka of the Mauryan dynasty. The sculptures and monuments present at the site are a fine
+                example of the development of Buddhist art and architecture in Madhya Pradesh. The stupa sits atop a
+                hill in Sanchi, 46 km from the city of Bhopal.
+                <br><br>
+                This large hemispherical dome, more than 50 ft high with a diameter of more than 30m was constructed to
+                honour Lord Buddha and houses many important Buddhist relics. It is meant to serve as a sacred burial
+                mound for the distributed remains of Lord Buddha.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

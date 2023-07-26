@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Rajasthan..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Bikaner.html">Bikaner</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Chand Baori.html">Chand Baori</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Chittorgarh.html">Chittorgarh</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Galtaji Temple.html">Galtaji Temple</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jaipur.html">Jaipur</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jaisalmer.html">Jaisalmer</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jhunjhana.html">Jhunjhana</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jodhpur.html">Jodhpur</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Mandawa.html">Mandawa</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Ranthambore.html">Ranthambore</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Udaipur.html">Udaipur</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Galtaji Temple..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Galtaji Temple\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Galtaji Temple\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Galtaji Temple\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Galtaji Temple\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Galtaji Temple\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Rajasthan\Galtaji Temple\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Galtaji Temple.</h4>
+        </div>
+        <div class=" div8">
+            <p>Located on the outskirts of the regal city of Jaipur, Galtaji Temple is a prehistoric Hindu pilgrimage
+                site. Outlined by the striking Aravalli hills, it consists of several shrines, holy kunds, pavilions and
+                natural springs. This majestic temple is situated at the heart of a hilly terrain that is bounded by a
+                beautiful gorge which attracts tourists here every year. Galtaji Temple was built using pink colour
+                sandstone and is a vast temple complex housing varied shrines. Located inside the City Palace, the walls
+                of this temple are beautifully adorned with carvings and paintings that make this place worth visiting.
+                The Galtaji temple is unique in its architecture and has been constructed like a palace.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

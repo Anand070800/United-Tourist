@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Nagaland..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Dimapur.html">Dimapur</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Dzukou Valley.html">Dzukou Valley</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Khonoma Green Village.html">Khonoma Green
+                        Village</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Kohima.html">Kohima</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Mokokchung.html">Mokokchung</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Mon.html">Mon</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Nagaland Zoological Park.html">Nagaland
+                        Zoological Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Peren.html">Peren</a></li>
+                <li><a class="placename" href="D:\workshop\state\Nagaland\Tuensang.html">Tuensang</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Dzukou Valley..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Nagaland\Dzukou Valley\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Nagaland\Dzukou Valley\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Nagaland\Dzukou Valley\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Nagaland\Dzukou Valley\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Nagaland\Dzukou Valley\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Nagaland\Dzukou Valley\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Dzukou Valley.</h4>
+        </div>
+        <div class=" div8">
+            <p>The Japfu Peak standing tall at 3048 meters is the second highest peak in Nagaland and provides the
+                perfect vantage point for admiring the heavenly beauty of the Dzukou Valley. Dzukou valley is also known
+                as the "Valley of Flowers of the east" and is quite a sight to behold, when in full bloom. Dzukou Valley
+                is considered to be the base of the crater of an old volcano and seems like covered with a carpet of the
+                most exquisite species of grass and flowers. The highest point in the Dzukou valley is at 2600 meters
+                and provides a wide and panoramic view of the enchanting valley in the front.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Uttar Pradesh..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Agra.html">Agra</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Allahabad.html">Allahabad</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Ayodha.html">Ayodha</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Chitrakoot.html">Chitrakoot</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Fatehpur Sikri.html">Fatehpur Sikri</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Jhansi.html">Jhansi</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Lucknow.html">Lucknow</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Mathura.html">Mathura</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Sarnath.html">Sarnath</a></li>
+                <li><a class="placename" href="D:\workshop\state\Uttar Pradesh\Varanasi.html">Varanasi</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Mathura..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Uttar Pradesh\Mathura\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Uttar Pradesh\Mathura\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Uttar Pradesh\Mathura\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Uttar Pradesh\Mathura\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Uttar Pradesh\Mathura\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Uttar Pradesh\Mathura\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Mathura.</h4>
+        </div>
+        <div class=" div8">
+            <p>Haryana is a jewel in the crown of the country India, sharing its capital Chandigarh with the state of
+                Punjab. The Shivalik hills borders the state in the north-east and the Aravalli range towards the south
+                and the commonly spoken language of the natives in this state is Haryanvi. Haryana has a number of sites
+                which dates back to the ancient civilizations of the Vedic era. 
+                <br><br>
+                One side of Mathura is stretched across the Yamuna River, lined with 25 ghats, which are best visited
+                during dawn when you can witness locals and tourists taking a holy dip, and at dawn (just after the
+                sunset) when hundreds of diyas are floated during the daily aarti. Mathura is flooded with tourists and
+                pilgrims during the two main festivals - Janmashtami (Lord Krishna's birthday) in August/September, and
+                Holi in February/March.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Manipur..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Manipur\Chandel.html">Chandel</a></li>
+                <li><a class="placename" href="D:\workshop\state\Manipur\Imphal.html">Imphal</a></li>
+                <li><a class="placename" href="D:\workshop\state\Manipur\loktak lake.html">loktak lake</a></li>
+                <li><a class="placename" href="D:\workshop\state\Manipur\Moirang.html">Moirang</a></li>
+                <li><a class="placename" href="D:\workshop\state\Manipur\Thoubal.html">Thoubal</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Imphal..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Manipur\Imphal\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Manipur\Imphal\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Manipur\Imphal\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Manipur\Imphal\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Manipur\Imphal\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Manipur\Imphal\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Imphal.</h4>
+        </div>
+        <div class=" div8">
+            <p>Imphal has a untouched charm surrounding its natural beauty, sceneries and landscapes as well as a
+                significant history leaving hints of the past around the city.
+                <br><br>
+                The lust green landscapes, beautiful surroundings, unexplored territories and undulating rivers of
+                Imphal make for a great tourist destination. This site of the battle of Imphal during the World War II,
+                assumes a certain importance, derived from history. The two together give Imphal a number of tourist
+                destinations which include INA memorial, Manipur State museum, Kangla Fort, Langthabal, war cemeteries,
+                Shri Govindjee temple as well as the Waithou and Loktal lake. Manipur Zoological gardens and Keibul
+                Lamjao National park are also places one might not want to miss
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

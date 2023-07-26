@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Meghalaya..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Balpakram National Park.html">Balpakram
+                        National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Cherrapunji.html">Cherrapunji</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Elephant Falls.html">Elephant Falls</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Jowai.html">Jowai</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Mawsynram.html">Mawsynram</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Shillong.html">Shillong</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Umian Lake.html">Umian Lake</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Umian Lake..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Umian Lake\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Umian Lake\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Umian Lake\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Umian Lake\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Umian Lake\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Meghalaya\Umian Lake\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Umian Lake.</h4>
+        </div>
+        <div class=" div8">
+            <p>Umiam Lake, a mesmerizing man-made reservoir, is located at a distance of 15 kilometres north of Shillong
+                which is the capital of the north-eastern Indian state of Meghalaya. The lake was formed after a dam was
+                constructed to generate hydroelectric power. The scenic Umiam Lake is encircled by lush green East Khasi
+                hills that form one of the best panoramic sights for nature-lovers in the country. The sunrise at the
+                lake is a treat to watch and shouldn't be missed. The Umiam Lake has a park adjoining it which is a
+                hotspot for picnics and frequented by locals for a getaway from their busy scheduled.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

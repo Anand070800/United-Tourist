@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Mizoram..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Mizoram\Mamit.html">Mamit</a></li>
+                <li><a class="placename" href="D:\workshop\state\Mizoram\Phawangpuri National Park.html">Phawangpuri
+                        National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Mizoram\Saiha.html">Saiha</a></li>
+                <li><a class="placename" href="D:\workshop\state\Mizoram\Tam lake.html">Tam lake</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Tam lake..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Mizoram\Tam lake\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Mizoram\Tam lake\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Mizoram\Tam lake\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Mizoram\Tam lake\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Mizoram\Tam lake\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Mizoram\Tam lake\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Tam lake.</h4>
+        </div>
+        <div class=" div8">
+            <p>Literally “Lake of Mustard”, Tam Dil is situated near Saitual Village, about 87.5 km from Aizawl. Having
+                been developed as an important pisciculture centre by the Fisheries Department and a holiday resort by
+                the Tourism Department, this is one of the most frequented lakes in the state. The lake and the
+                surrounding thick forest are home to wide species of trees, plants and animals.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

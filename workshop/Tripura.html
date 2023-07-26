@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Tripura..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Tripura\Buddha Temple.html">Buddha Temple</a></li>
+                <li><a class="placename" href="D:\workshop\state\Tripura\Chittangong Hills.html">Chittangong Hills</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Tripura\Ujjayanta Palace.html">Ujjayanta Palace</a>
+                </li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Tripura..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Tripura\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Tripura\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Tripura\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Tripura\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Tripura\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Tripura\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Tripura.</h4>
+        </div>
+        <div class=" div8">
+            <p>Rich in gorgeous landscapes, crystalline waterfalls, awe-inspiring mountains, dense forests, and a
+                generous sprinkling of history and tradition, Tripura is a popular tourist destination situated in
+                North-East India. This land-locked state nestled at the foot of the Himalayan mountains has a long
+                historical legacy behind it; Tripura was once home to the famous Manikya tribe, which resulted in the
+                conception of a plethora of varied archaeological monuments and structures in the state, all of which
+                attest to the rich cultural and traditional past of Tripura.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

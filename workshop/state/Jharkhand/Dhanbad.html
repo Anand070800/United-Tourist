@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Jharkhand..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Jharkhand\Dhanbad.html">Dhanbad</a></li>
+                <li><a class="placename" href="D:\workshop\state\Jharkhand\Hazaribagh.html">Hazaribagh</a></li>
+                <li><a class="placename" href="D:\workshop\state\Jharkhand\Jameshpur.html">Jameshpur</a></li>
+                <li><a class="placename" href="D:\workshop\state\Jharkhand\Ranchi.html">Rachi</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Dhanbad..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Jharkhand\Dhanbad\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Jharkhand\Dhanbad\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Jharkhand\Dhanbad\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Jharkhand\Dhanbad\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Jharkhand\Dhanbad\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Jharkhand\Dhanbad\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Dhanbad.</h4>
+        </div>
+        <div class=" div8">
+            <p>Dams like the Maithon Dam or the Panchet Dam are often considered the centre of tourist activity,
+                surrounded by hills, dense forests and lakes. The authentic cuisine is also one of its many highlights.
+                The best time to experience Dhanbad is between October and March when the temperature is pleasing and
+                perfect for sightseeing. It is ideal for every tourist looking for a fun weekend in one of the
+                fastest-growing cities in the world.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

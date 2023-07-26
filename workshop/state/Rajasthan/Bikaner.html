@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Rajasthan..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Bikaner.html">Bikaner</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Chand Baori.html">Chand Baori</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Chittorgarh.html">Chittorgarh</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Galtaji Temple.html">Galtaji Temple</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jaipur.html">Jaipur</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jaisalmer.html">Jaisalmer</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jhunjhana.html">Jhunjhana</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jodhpur.html">Jodhpur</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Mandawa.html">Mandawa</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Ranthambore.html">Ranthambore</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Udaipur.html">Udaipur</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Bikaner..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Bikaner\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Bikaner\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Bikaner\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Bikaner\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Bikaner\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Rajasthan\Bikaner\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Bikaner.</h4>
+        </div>
+        <div class=" div8">
+            <p>Located in the midst of Thar Desert, Bikaner is a "cultural paradise and a traveller's haven". Bikaner
+                with its magnificence in architecture, art and culture is filled with colour, festivity and cultural
+                marvels.The city will mesmerize you with the camels sauntering the beautiful sand dunes, its ancient
+                palaces and forts. Rightly called as one of the three great desert kingdoms of Rajasthan, the dazzling
+                city boasts of old-world charm, opulent havelis and depicts a pleasing bygone era of the Rajputs. Best
+                known as the "camel country" for breeding some best-known riding camels, Bikaner also happens to house
+                one of the only two models of the biplane used by the British in World War 1.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

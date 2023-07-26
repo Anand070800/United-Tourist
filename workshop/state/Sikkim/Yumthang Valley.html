@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Sikkim..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Gangtok.html">Gangtok</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Gurudongmar.html">Gurudongmar</a></li>
+                <li><a class="placename"
+                        href="D:\workshop\state\Sikkim\Jawaharlal Nehru Botanical Garden.html">Jawaharlal Nehru
+                        Botanical Garden</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Lachung.html">Lachung</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Namchi.html">Namchi</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Nathula Pass.html">Nathula Pass</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Pelling.html">Pelling</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Ravangla.html">Ravangla</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Rumtek Monastery.html">Rumtek Monastery</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Tsomgo Lake.html">Tsomgo Lake</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Yukson.html">Yukson</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Yumthang Valley.html">Yumthang Valley</a></li>
+                <li><a class="placename" href="D:\workshop\state\Sikkim\Zuluk.html">Zuluk</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Yumthang Valley..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Sikkim\Yumthang Valley\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Sikkim\Yumthang Valley\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Sikkim\Yumthang Valley\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Sikkim\Yumthang Valley\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Sikkim\Yumthang Valley\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Sikkim\Yumthang Valley\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Yumthang Valley.</h4>
+        </div>
+        <div class=" div8">
+            <p>The popular Yumthang Valley in North Sikkim is located 140 km north of Gangtok. Famous as the "Valley of
+                flowers", this is a rare and exotic location with hot springs, rivers, yaks and lush green meadows.
+                Situated at an elevation on 3564 metres, this stunning valley is a paradise for nature lovers as it
+                houses the Shingba Rhododendron Sanctuary which has over 24 species of Rhododendron flowers (the state
+                flower) blooming from late February to mid-June.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

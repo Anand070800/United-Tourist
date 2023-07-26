@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Meghalaya..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Balpakram National Park.html">Balpakram
+                        National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Cherrapunji.html">Cherrapunji</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Elephant Falls.html">Elephant Falls</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Jowai.html">Jowai</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Mawsynram.html">Mawsynram</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Shillong.html">Shillong</a></li>
+                <li><a class="placename" href="D:\workshop\state\Meghalaya\Umian Lake.html">Umian Lake</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Cherrapunji..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Cherrapunji\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Cherrapunji\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Cherrapunji\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Cherrapunji\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Meghalaya\Cherrapunji\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Meghalaya\Cherrapunji\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Cherrapunji.</h4>
+        </div>
+        <div class=" div8">
+            <p>Earlier the wettest place on the Earth, Cherrapunji in Meghalaya, also known as Sohra, is known for its
+                double-decker living root bridge. Located around 50 Kms from Shillong, this sub-divisional town is
+                famous for its rich flora and natural attractions. Although Mawsynram is now the wettest place on earth,
+                Cherrapunji still holds the record for the highest recorded rainfall in a calendar year. Apart from the
+                famous living root bridge, other natural attractions include cave formations such as the Mawsmai Caves
+                and Krem Phyllut. Asia's cleanest village, Mawylyngnong is another famous tourist spot here, where
+                visitors can live and experience the food and culture of the village.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

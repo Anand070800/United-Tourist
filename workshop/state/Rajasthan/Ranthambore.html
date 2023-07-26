@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Rajasthan..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Bikaner.html">Bikaner</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Chand Baori.html">Chand Baori</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Chittorgarh.html">Chittorgarh</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Galtaji Temple.html">Galtaji Temple</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jaipur.html">Jaipur</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jaisalmer.html">Jaisalmer</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jhunjhana.html">Jhunjhana</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Jodhpur.html">Jodhpur</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Mandawa.html">Mandawa</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Ranthambore.html">Ranthambore</a></li>
+                <li><a class="placename" href="D:\workshop\state\Rajasthan\Udaipur.html">Udaipur</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Ranthambore..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Ranthambore\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Ranthambore\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Ranthambore\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Ranthambore\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Rajasthan\Ranthambore\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Rajasthan\Ranthambore\1.jpg" alt="img" width="815px"
+                height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Ranthambore.</h4>
+        </div>
+        <div class=" div8">
+            <p>Nestled in the foothills of Vindhya and Aravali Hills, Ranthambore is famous for its tiger reserves and
+                the variety of flora and fauna found. The Ranthambore National Park, along with the Ranthambore Fort and
+                the surrounding hills and valleys, altogether make Ranthambore a traveller's delight. The place is a
+                boon for wildlife photographers and is perfect for excursions and sightseeing. Safari Rides add to the
+                adventure along with hot Rajasthani picks for shopaholics. With an area of 392 kilometres square,
+                Ranthambore National Park is a natural habitat for a variety of exotic species. It is an absolute
+                delight for birdwatchers and an ideal place to watch animals in their natural habitat.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

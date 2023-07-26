@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Kerala..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Kerala\Alleppey.html">Alleppey</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Kalpetta.html">Kalpetta</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Kochi.html">Kochi</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Kumarakom.html">Kumarakom</a>
+                </li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Kurumbalakotta.html">Kurumbalakotta</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Munnar.html">Munnar</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Muthanga.html">Muthanga</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Nilambur.html">Nilambur</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Pariyar National Park.html">Pariyar National
+                        Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Kerala\Wayanad.html">Wayanad</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Nilambur..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Kerala\Nilambur\1.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Kerala\Nilambur\2.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Kerala\Nilambur\3.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Kerala\Nilambur\4.jpg" alt="img" width=154px height="150px">
+            <img class="imagelist" src="D:\workshop\state\Kerala\Nilambur\5.jpg" alt="img" width=154px height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Kerala\Nilambur\1.jpg" alt="img" width="815px" height="342px"
+                id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Nilambur.</h4>
+        </div>
+        <div class=" div8">
+            <p>Enriched with raw nature, a unique blend of culture, exquisite art forms and shadows of colonial rule,
+                Nilambur is located in Malappuram District of Kerala. Nestled at the bank of Chaliyar River in proximity
+                to Nilgiri Range, this small town is popularly known as 'Land of Teak Plantations'.
+                <br><br>
+                Blessed with vibrant shades of natural beauty, the region is clustered with exotic wildlife and
+                showcases vivid illustrations of past through several royal residencies. Nilambur, covered under vast
+                tracks of the forest has many kinds of wood mushrooming around other than teak.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

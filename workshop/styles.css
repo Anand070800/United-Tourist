@@ -1,0 +1,132 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: white;
+
+}
+main{
+    background-color: white;
+    widows: 100%;;
+    display: grid;
+    grid-template-rows: 35px 30px 200px 100px;
+    grid-template-columns:235px auto 300px;
+    grid-gap: 5px;
+}
+.div1{ background: gray;
+    height: 35px;
+    grid-column: 1/-1;
+    border: 2px solid white;
+    
+    
+}
+.div2{ background-color: white;
+    border-radius:10px ;
+    color: black;
+    
+
+}
+.div3{ background-color:rgb(255, 255, 255);
+    grid-row: 3/45;
+    border-radius:10px ;
+    text-align: left;
+}
+.div4{ background-color: rgb(255, 255, 255);
+    border-radius:10px ;
+
+}
+.div5{ background-color: rgba(255, 255, 255, 0.85);
+    grid-row: 12/45;
+    grid-column: 2/3;
+    border-radius:2px ;
+
+}
+.div6{ background-color: rgb(255, 255, 255);
+    grid-row: 3/12;
+    box-shadow: 1px 1px 5px 3px white;
+    border-radius: 2px;
+}
+.div7{ background-color: white;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-radius:10px ;
+    
+    
+
+}
+.div8{ background-color:rgb(255, 255, 255);
+    grid-row: 3/45;
+    border-radius:10px ;
+    padding: 10px;
+    font-style: italic;
+    color: black;
+
+}
+
+.div9{ background-color: rgb(31, 32, 28);
+    grid-column: 1/-1;
+    height: 25px;
+    border: 2px solid white ;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+#head{
+    color: rgb(39, 223, 207);
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+#head1{
+    color: yellow;
+}
+
+#place{
+    color: rgb(15, 67, 236);
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#label1{
+    text-align: center;
+    margin-top: 3px;
+}
+#label2{
+    text-align: center;
+    margin-top: 3px;
+}
+#label3{
+    text-align: center;
+    margin-top: 3px;
+}
+.placename{
+    color: black;
+}
+.imagelist{
+    display: block;
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+.mainimage{
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 1px;
+}
+img{
+    border-radius: 5px;
+}
+.imagelist:hover{
+    transform: scale(1.5,1.5);
+    transition: .3s transform;
+}
+#Tname{
+    color: red;
+}

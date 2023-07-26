@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United_Tourist</title>
+    <link rel="icon" href="D:\workshop\logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="D:\workshop\styles.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="div1">
+            <h3 id="head"><img src="D:\workshop\logo.jpg" width="20px" height="20px">United<a id="head1">.Tourist</a>
+            </h3>
+        </div>
+
+        <div class="div2">
+            <h4 id="label1">Tourist places of Chhattisgarh..</h4>
+        </div>
+        <div class="div3">
+            <ul id="place">
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife.html">Barnawapara
+                        Wildlife</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Bhoramdeo temple.html">Bhoramdeo
+                        temple</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Chitrakot Waterfalls.html">Chitrakot
+                        Waterfalls</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Kanger Valley National Park.html">Kanger
+                        Valley National Park</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Rajeev Smritivan.html">Rajeev
+                        Smritivan</a></li>
+                <li><a class="placename" href="D:\workshop\state\Chhattisgarh\Tirathgarh Falls.html">Tirathgarh
+                        Falls</a></li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h4 id="label2">Images of Barnawapara..</h4>
+        </div>
+        <div class="div5" onclick="fun(event);">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife\1.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife\2.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife\3.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife\4.jpg" alt="img" width=154px
+                height="150px">
+            <img class="imagelist" src="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife\5.jpg" alt="img" width=154px
+                height="150px">
+        </div>
+        <div class="div6">
+            <img class="mainimage" src="D:\workshop\state\Chhattisgarh\Barnawapara Wildlife\1.jpg" alt="img"
+                width="815px" height="342px" id="main">
+        </div>
+        <script>
+            function fun(Event) {
+                document.getElementById('main').src = event.target.src;
+            }
+        </script>
+        <div class="div7">
+            <h4 id="label3">About Barnawapara.</h4>
+        </div>
+        <div class="div8">
+            <p>Established in 1976, Banwarapara Wildlife Sanctuary is surrounded by forests and villages and is a
+                beautiful place to visit in the state of Chhattisgarh. The sanctuary itself has 21 villages inside,
+                maintaining the ecological balance and not indulging in hunting. The sanctuary has a wide variety of
+                species of flora and fauna which attracts most crowds. But, other than the park itself, there are
+                various tourist places to visit in Barnawapara Wildlife Sanctuary that bring in the crowd. Some places
+                include Hindu Temples in Sirpur, Bhainsa Tal and the village of Durg. Here’s a list of all the places
+                you can check out on your tour to this lovely sanctuary.
+            </p>
+        </div>
+        <div class="div9">
+            <h4>
+                <p class="copyright" data-type="group">Created By <a id="Tname">Code Riser</a>|© 2021 All right
+                    reserved.</p>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>
